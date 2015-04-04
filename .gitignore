@@ -12,6 +12,7 @@
 !/log/.keep
 /tmp
 .idea/
+.env
 
 
 
