@@ -56,6 +56,9 @@ gem 'friendly_id'
 # for payments through credit cards
 gem 'stripe'
 
+# for payment state machine
+gem 'aasm'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

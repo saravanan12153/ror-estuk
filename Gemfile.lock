@@ -13,6 +13,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (2.3.1)
+    aasm (4.1.0)
     actionmailer (4.2.0)
       actionpack (= 4.2.0)
       actionview (= 4.2.0)
@@ -307,6 +308,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aasm
   byebug
   cancan
   coffee-rails (~> 4.1.0)
