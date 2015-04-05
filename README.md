@@ -1,28 +1,52 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is code for ESTUK => a simple 2 sided bookstore where you can buy and sell books
+This app is created in Ruby 2.2.1 and Rails 4.2.0
 
-Things you may want to cover:
+** [eStuk test website](http://estuk.sulman.me) **
 
-* Ruby version
+To make it your own...
 
-* System dependencies
+* Copy whole repo
 
-* Configuration
+* Make a file `.env` in main directory and put environment variable for Google Cloud Storage & Stripe keys.
 
-* Database creation
+* Run in terminal `bundle install`
 
-* Database initialization
+* Run in terminal `rake db:migrate`
 
-* How to run the test suite
+* Run in terminal `run server`
 
-* Services (job queues, cache servers, search engines, etc.)
+* Run in browser `localhost:3000`
 
-* Deployment instructions
+Main Gems:
 
-* ...
+* Ruby version 2.2.1
 
+* Rails 4.2.0
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* twitter-bootstrap-rails
+
+* simple-form
+
+* devise
+
+* auto_html
+
+* sqlite3
+
+* paperclip
+
+* fog
+
+* friendly_id
+
+* stripe
+
+* aasm
+
+* dotenv-rails `for development`
+
+* pg `for heroku`
+
+* rails_12factor `for heroku`
